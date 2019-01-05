@@ -36,7 +36,7 @@ let getValueByFieldName = (fieldName, lines) => {
 describe('vCard', function() {
 
     let testCard = vCard();
-    testCard.version = '3.0';
+    testCard.version = '4.1';
     testCard.uid = TEST_VALUE_UID;
     testCard.lastName = 'Doe';
     testCard.middleName = 'D';
